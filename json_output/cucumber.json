@@ -1,0 +1,467 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 37753913180,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on insights page",
+            "match": {
+              "location": "InsightPageTest.userIsOnInsightsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47841516,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title insights page title is Insights | Octopus Group",
+            "match": {
+              "location": "InsightPageTest.titleInsightsPageTitleIsInsightsOctopusGroup()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify search Job functionality on the careers page.",
+        "description": "",
+        "id": "octopus-job-page-search-function;verify-search-job-functionality-on-the-careers-page.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 250750085,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Careers in header menu",
+            "match": {
+              "location": "CareerPageTest.userClickOnCareersInHeaderMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1418664852,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Search Job link",
+            "match": {
+              "location": "CareerPageTest.userClicksOnSearchJobLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 316015398,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on Careers page",
+            "match": {
+              "location": "CareerPageTest.userIsOnCareersPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 724639073,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters \"Automation\" in the search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation",
+                  "offset": 13
+                }
+              ],
+              "location": "CareerPageTest.userEntersInTheSearch(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1492971065,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on filter by location drop down",
+            "match": {
+              "location": "CareerPageTest.userClicksOnFilterByLocationDropDown()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Octopus Job page search function",
+    "description": "",
+    "id": "octopus-job-page-search-function",
+    "keyword": "Feature",
+    "uri": "CareerPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Verify search function on the Insights page.",
+        "description": "",
+        "id": "octopus-insights-page-search-function;verify-search-function-on-the-insights-page.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8783419089,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on insights page",
+            "match": {
+              "location": "InsightPageTest.userIsOnInsightsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47584372,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title insights page title is Insights | Octopus Group",
+            "match": {
+              "location": "InsightPageTest.titleInsightsPageTitleIsInsightsOctopusGroup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262801639,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on search icon",
+            "match": {
+              "location": "InsightPageTest.userClickOnSearchIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 696327748,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user inputs \"Simon\" in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Simon",
+                  "offset": 13
+                }
+              ],
+              "location": "InsightPageTest.userInputsInSearchBar(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 976945373,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on people filter",
+            "match": {
+              "location": "InsightPageTest.userClicksOnPeopleFilter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Octopus insights page search function",
+    "description": "",
+    "id": "octopus-insights-page-search-function",
+    "keyword": "Feature",
+    "uri": "InsightPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8217747839,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on insights page",
+            "match": {
+              "location": "InsightPageTest.userIsOnInsightsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13446777,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title insights page title is Insights | Octopus Group",
+            "match": {
+              "location": "InsightPageTest.titleInsightsPageTitleIsInsightsOctopusGroup()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verify the Sign up for newsletter functionality on Simon blog page.",
+        "description": "",
+        "id": "octopus-simon\u0027s-blog-function;verify-the-sign-up-for-newsletter-functionality-on-simon-blog-page.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1971299265,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on Simon says link in footer",
+            "match": {
+              "location": "SimonBlogTest.userClickOnSimonSaysLinkInFooter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 347144086,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verifies page title",
+            "match": {
+              "location": "SimonBlogTest.userVerifiesPageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 653157455,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"abc@hotmail.com\" for newsletter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@hotmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "SimonBlogTest.userEnterForNewsletter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 472781486,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on all checkboxs.",
+            "match": {
+              "location": "SimonBlogTest.userClicksOnAllCheckboxs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 567884250,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on submit button.",
+            "match": {
+              "location": "SimonBlogTest.userClicksOnSubmitButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Octopus Simon\u0027s Blog function",
+    "description": "",
+    "id": "octopus-simon\u0027s-blog-function",
+    "keyword": "Feature",
+    "uri": "SimonBlog.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7960256209,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on insights page",
+            "match": {
+              "location": "InsightPageTest.userIsOnInsightsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244764001,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title insights page title is Insights | Octopus Group",
+            "match": {
+              "location": "InsightPageTest.titleInsightsPageTitleIsInsightsOctopusGroup()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify User should be able to submit his details for \u0027Want to support the nation of entrepreneurs?\u0027 on UK Springboard page",
+        "description": "",
+        "id": "octopus-uk-spring-board-submit-function;verify-user-should-be-able-to-submit-his-details-for-\u0027want-to-support-the-nation-of-entrepreneurs?\u0027-on-uk-springboard-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2202460177,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on UK Springboard link in footer",
+            "match": {
+              "location": "UkSpringBoardTest.userClickOnUkSpringboardLinkInFooter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 394350002,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the page title",
+            "match": {
+              "location": "UkSpringBoardTest.userVerifiesThePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1694371734,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter \"abc@hotmail.com\", \"test\" \u0026 \"user\" on UK Springboard page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@hotmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "test",
+                  "offset": 31
+                },
+                {
+                  "val": "user",
+                  "offset": 40
+                }
+              ],
+              "location": "UkSpringBoardTest.userEnterOnUKSpringboardPage(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 234793545,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on any checkbox.",
+            "match": {
+              "location": "UkSpringBoardTest.userClicksOnAnyCheckbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 595659423,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on submit button.",
+            "match": {
+              "location": "UkSpringBoardTest.userClickOnSubmitButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Octopus Uk Spring board submit function",
+    "description": "",
+    "id": "octopus-uk-spring-board-submit-function",
+    "keyword": "Feature",
+    "uri": "UkSpringBoard.feature"
+  }
+]

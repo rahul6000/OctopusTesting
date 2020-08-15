@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="78.341989">
+<testcase classname="Octopus Job page search function" name="Verify search Job functionality on the careers page." time="42.004795">
+<system-out><![CDATA[Given user is on insights page..............................................passed
+When title insights page title is Insights | Octopus Group..................passed
+When user click on Careers in header menu...................................passed
+Then user clicks on Search Job link.........................................passed
+Then user is on Careers page................................................passed
+Then user enters "Automation" in the search.................................passed
+And user clicks on filter by location drop down.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Octopus insights page search function" name="Verify search function on the Insights page." time="10.767078">
+<system-out><![CDATA[Given user is on insights page..............................................passed
+When title insights page title is Insights | Octopus Group..................passed
+Then user click on search icon..............................................passed
+Then user inputs "Simon" in search bar......................................passed
+Then user clicks on people filter...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Octopus Simon's Blog function" name="Verify the Sign up for newsletter functionality on Simon blog page." time="12.243461">
+<system-out><![CDATA[Given user is on insights page..............................................passed
+When title insights page title is Insights | Octopus Group..................passed
+When user click on Simon says link in footer................................passed
+Then user verifies page title...............................................passed
+Then user enter "abc@hotmail.com" for newsletter............................passed
+Then user clicks on all checkboxs...........................................passed
+Then user clicks on submit button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Octopus Uk Spring board submit function" name="Verify User should be able to submit his details for 'Want to support the nation of entrepreneurs?' on UK Springboard page" time="13.326655">
+<system-out><![CDATA[Given user is on insights page..............................................passed
+Given title insights page title is Insights | Octopus Group.................passed
+When user click on UK Springboard link in footer............................passed
+Then user verifies the page title...........................................passed
+Then user enter "abc@hotmail.com", "test" & "user" on UK Springboard page...passed
+Then user clicks on any checkbox............................................passed
+Then user click on submit button............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
