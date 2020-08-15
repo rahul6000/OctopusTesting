@@ -1,7 +1,6 @@
 Feature: Octopus insights page search function
 
 
-
   Scenario Outline: Verify search function on the Insights page.
     Given user is on insights page
     When title insights page title is Insights | Octopus Group
@@ -12,4 +11,4 @@ Feature: Octopus insights page search function
 
     Examples:
       | keyword |
-      |Simon    |
+      | Simon   |

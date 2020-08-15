@@ -14,5 +14,5 @@ Feature: Octopus Simon's Blog function
 
 
     Examples:
-      | emailid|
-      |abc@hotmail.com|
+      | emailid         |
+      | abc@hotmail.com |

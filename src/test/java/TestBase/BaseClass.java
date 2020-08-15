@@ -21,11 +21,11 @@ public class BaseClass {
     public static SimonBlog simonBlog;
     public static UkSpringBoard ukSpringBoard;
 
-@BeforeAll
+    @BeforeAll
     public static void initialization() {
         By cookies_accept = By.id("ccc-notify-accept");
         WebDriverManager.chromedriver().setup();
-        driver =new ChromeDriver();
+        driver = new ChromeDriver();
         //insightPage = new InsightPage(driver);
         driver.get("https://octopusgroup.com/insights");
         driver.manage().window().maximize();
@@ -38,18 +38,15 @@ public class BaseClass {
         wait.until(ExpectedConditions.invisibilityOfElementLocated(cookies_accept));
 
     }
-    public String getPageTitle()
-    {
+
+    public String getPageTitle() {
         return driver.getTitle();
     }
-@AfterAll
+
+    @AfterAll
     public static void teardown() {
         driver.quit();
     }
-
-
-
-
 
 
 }

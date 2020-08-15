@@ -10,36 +10,36 @@ public class InsightPage extends BaseClass {
 
     WebDriver driver;
 
-    @FindBy(xpath ="//span[text()='Search']")  //locating elements on the page
+    @FindBy(xpath = "//span[text()='Search']")  //locating elements on the page
     public WebElement searchIcon;
 
-    @FindBy(xpath ="//input[@id='input-focus']")
+    @FindBy(xpath = "//input[@id='input-focus']")
     public WebElement searchBar;
 
-    @FindBy(xpath ="//p[contains(.,'People (1)')]")
+    @FindBy(xpath = "//p[contains(.,'People (1)')]")
     public WebElement peopleChkBox;
 
 
-    public InsightPage(WebDriver driver)
-    {
+    public InsightPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver, this);
 
 
     }
-
 
 
     //Actions or Methods for the elements
-    public void clickOnSearchIcon(){
+    public void clickOnSearchIcon() {
         searchIcon.click();
     }
-    public void inputInSearchBar(String searchText){
+
+    public void inputInSearchBar(String searchText) {
         searchBar.sendKeys(searchText);
-}
-        public void clickOnChkBox(){
+    }
+
+    public void clickOnChkBox() {
         peopleChkBox.click();
-}
+    }
 
 
 }

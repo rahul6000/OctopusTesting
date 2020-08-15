@@ -15,5 +15,5 @@ Feature: Octopus Uk Spring board submit function
 
 
     Examples:
-      | email | firstname| lastname|
-      |abc@hotmail.com|test|user     |
+      | email           | firstname | lastname |
+      | abc@hotmail.com | test      | user     |

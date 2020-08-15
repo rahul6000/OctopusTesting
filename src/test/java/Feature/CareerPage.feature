@@ -16,5 +16,5 @@ Feature: Octopus Job page search function
 
 
     Examples:
-      | Keyword|
-      |Automation|
+      | Keyword    |
+      | Automation |
