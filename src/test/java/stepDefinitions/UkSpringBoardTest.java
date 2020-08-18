@@ -1,11 +1,12 @@
 package stepDefinitions;
 
 import TestBase.BaseClass;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 public class UkSpringBoardTest extends BaseClass {
     @Test
@@ -26,7 +27,8 @@ public class UkSpringBoardTest extends BaseClass {
     @Test
     @Then("^user enter \"([^\"]*)\", \"([^\"]*)\" & \"([^\"]*)\" on UK Springboard page$")
     public void userEnterOnUKSpringboardPage(String email, String firstname, String lastname) {
-        driver.switchTo().frame("hs-form-iframe-0");
+        WebElement iframe= driver.findElement(By.className("hs-form-iframe"));
+        driver.switchTo().frame(iframe);
         ukSpringBoard.inputEmailId(email);
         ukSpringBoard.inputFirstName(firstname);
         ukSpringBoard.inputlasName(lastname);

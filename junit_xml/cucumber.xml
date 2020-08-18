@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="78.341989">
-<testcase classname="Octopus Job page search function" name="Verify search Job functionality on the careers page." time="42.004795">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="38.857414">
+<testcase classname="Octopus Job page search function" name="Verify search Job functionality on the careers page." time="15.184486">
 <system-out><![CDATA[Given user is on insights page..............................................passed
 When title insights page title is Insights | Octopus Group..................passed
 When user click on Careers in header menu...................................passed
@@ -10,7 +10,7 @@ Then user enters "Automation" in the search.................................pass
 And user clicks on filter by location drop down.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Octopus insights page search function" name="Verify search function on the Insights page." time="10.767078">
+<testcase classname="Octopus insights page search function" name="Verify search function on the Insights page." time="7.323843">
 <system-out><![CDATA[Given user is on insights page..............................................passed
 When title insights page title is Insights | Octopus Group..................passed
 Then user click on search icon..............................................passed
@@ -18,7 +18,7 @@ Then user inputs "Simon" in search bar......................................pass
 Then user clicks on people filter...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Octopus Simon's Blog function" name="Verify the Sign up for newsletter functionality on Simon blog page." time="12.243461">
+<testcase classname="Octopus Simon's Blog function" name="Verify the Sign up for newsletter functionality on Simon blog page." time="7.885874">
 <system-out><![CDATA[Given user is on insights page..............................................passed
 When title insights page title is Insights | Octopus Group..................passed
 When user click on Simon says link in footer................................passed
@@ -28,7 +28,7 @@ Then user clicks on all checkboxs...........................................pass
 Then user clicks on submit button...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Octopus Uk Spring board submit function" name="Verify User should be able to submit his details for 'Want to support the nation of entrepreneurs?' on UK Springboard page" time="13.326655">
+<testcase classname="Octopus Uk Spring board submit function" name="Verify User should be able to submit his details for 'Want to support the nation of entrepreneurs?' on UK Springboard page" time="8.463211">
 <system-out><![CDATA[Given user is on insights page..............................................passed
 Given title insights page title is Insights | Octopus Group.................passed
 When user click on UK Springboard link in footer............................passed

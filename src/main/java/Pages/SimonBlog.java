@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
+
 public class SimonBlog extends BaseClass {
 
     WebDriver driver;
@@ -13,7 +15,7 @@ public class SimonBlog extends BaseClass {
     @FindBy(xpath = "//a[text()='Simon says']")  //locating elements on the page
     public WebElement simonSays;
 
-    @FindBy(xpath = "//input[@name='email']")
+    @FindBy(xpath = "//input[@data-reactid='.hbspt-forms-0.1:$0.$email.0']")
     public WebElement newLetterEmail;
 
     @FindBy(xpath = "//span[.='Sign me up to the newsletter*']")

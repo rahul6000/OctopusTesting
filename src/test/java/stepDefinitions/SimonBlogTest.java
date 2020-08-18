@@ -1,12 +1,12 @@
 package stepDefinitions;
 
-import Pages.SimonBlog;
 import TestBase.BaseClass;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SimonBlogTest extends BaseClass {
 
@@ -27,7 +27,10 @@ public class SimonBlogTest extends BaseClass {
     @Test
     @Then("^user enter \"([^\"]*)\" for newsletter$")
     public void userEnterForNewsletter(String emailid) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(simonBlog.newLetterEmail));
         simonBlog.enterEmailId(emailid);
+
 
     }
 

@@ -83,14 +83,14 @@ formatter.match({
   "location": "InsightPageTest.userIsOnInsightsPage()"
 });
 formatter.result({
-  "duration": 37753913180,
+  "duration": 12498036502,
   "status": "passed"
 });
 formatter.match({
   "location": "InsightPageTest.titleInsightsPageTitleIsInsightsOctopusGroup()"
 });
 formatter.result({
-  "duration": 47841516,
+  "duration": 12624315,
   "status": "passed"
 });
 formatter.scenario({
@@ -133,21 +133,21 @@ formatter.match({
   "location": "CareerPageTest.userClickOnCareersInHeaderMenu()"
 });
 formatter.result({
-  "duration": 250750085,
+  "duration": 155184757,
   "status": "passed"
 });
 formatter.match({
   "location": "CareerPageTest.userClicksOnSearchJobLink()"
 });
 formatter.result({
-  "duration": 1418664852,
+  "duration": 848004693,
   "status": "passed"
 });
 formatter.match({
   "location": "CareerPageTest.userIsOnCareersPage()"
 });
 formatter.result({
-  "duration": 316015398,
+  "duration": 189168770,
   "status": "passed"
 });
 formatter.match({
@@ -160,14 +160,14 @@ formatter.match({
   "location": "CareerPageTest.userEntersInTheSearch(String)"
 });
 formatter.result({
-  "duration": 724639073,
+  "duration": 335461540,
   "status": "passed"
 });
 formatter.match({
   "location": "CareerPageTest.userClicksOnFilterByLocationDropDown()"
 });
 formatter.result({
-  "duration": 1492971065,
+  "duration": 1146005062,
   "status": "passed"
 });
 formatter.uri("InsightPage.feature");
@@ -179,7 +179,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 5,
+  "line": 4,
   "name": "Verify search function on the Insights page.",
   "description": "",
   "id": "octopus-insights-page-search-function;verify-search-function-on-the-insights-page.",
@@ -187,32 +187,32 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 6,
+  "line": 5,
   "name": "user is on insights page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
+  "line": 6,
   "name": "title insights page title is Insights | Octopus Group",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "user click on search icon",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "user inputs \"\u003ckeyword\u003e\" in search bar",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "user clicks on people filter",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 13,
+  "line": 12,
   "name": "",
   "description": "",
   "id": "octopus-insights-page-search-function;verify-search-function-on-the-insights-page.;",
@@ -221,21 +221,21 @@ formatter.examples({
       "cells": [
         "keyword"
       ],
-      "line": 14,
+      "line": 13,
       "id": "octopus-insights-page-search-function;verify-search-function-on-the-insights-page.;;1"
     },
     {
       "cells": [
         "Simon"
       ],
-      "line": 15,
+      "line": 14,
       "id": "octopus-insights-page-search-function;verify-search-function-on-the-insights-page.;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 15,
+  "line": 14,
   "name": "Verify search function on the Insights page.",
   "description": "",
   "id": "octopus-insights-page-search-function;verify-search-function-on-the-insights-page.;;2",
@@ -243,22 +243,22 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 6,
+  "line": 5,
   "name": "user is on insights page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
+  "line": 6,
   "name": "title insights page title is Insights | Octopus Group",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "user click on search icon",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "user inputs \"Simon\" in search bar",
   "matchedColumns": [
     0
@@ -266,7 +266,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "user clicks on people filter",
   "keyword": "Then "
 });
@@ -274,21 +274,21 @@ formatter.match({
   "location": "InsightPageTest.userIsOnInsightsPage()"
 });
 formatter.result({
-  "duration": 8783419089,
+  "duration": 5979055495,
   "status": "passed"
 });
 formatter.match({
   "location": "InsightPageTest.titleInsightsPageTitleIsInsightsOctopusGroup()"
 });
 formatter.result({
-  "duration": 47584372,
+  "duration": 17659290,
   "status": "passed"
 });
 formatter.match({
   "location": "InsightPageTest.userClickOnSearchIcon()"
 });
 formatter.result({
-  "duration": 262801639,
+  "duration": 266477063,
   "status": "passed"
 });
 formatter.match({
@@ -301,14 +301,14 @@ formatter.match({
   "location": "InsightPageTest.userInputsInSearchBar(String)"
 });
 formatter.result({
-  "duration": 696327748,
+  "duration": 417533550,
   "status": "passed"
 });
 formatter.match({
   "location": "InsightPageTest.userClicksOnPeopleFilter()"
 });
 formatter.result({
-  "duration": 976945373,
+  "duration": 643117253,
   "status": "passed"
 });
 formatter.uri("SimonBlog.feature");
@@ -396,14 +396,14 @@ formatter.match({
   "location": "InsightPageTest.userIsOnInsightsPage()"
 });
 formatter.result({
-  "duration": 8217747839,
+  "duration": 5236144407,
   "status": "passed"
 });
 formatter.match({
   "location": "InsightPageTest.titleInsightsPageTitleIsInsightsOctopusGroup()"
 });
 formatter.result({
-  "duration": 13446777,
+  "duration": 16371517,
   "status": "passed"
 });
 formatter.scenario({
@@ -446,14 +446,14 @@ formatter.match({
   "location": "SimonBlogTest.userClickOnSimonSaysLinkInFooter()"
 });
 formatter.result({
-  "duration": 1971299265,
+  "duration": 1281927563,
   "status": "passed"
 });
 formatter.match({
   "location": "SimonBlogTest.userVerifiesPageTitle()"
 });
 formatter.result({
-  "duration": 347144086,
+  "duration": 207787481,
   "status": "passed"
 });
 formatter.match({
@@ -466,21 +466,21 @@ formatter.match({
   "location": "SimonBlogTest.userEnterForNewsletter(String)"
 });
 formatter.result({
-  "duration": 653157455,
+  "duration": 464568172,
   "status": "passed"
 });
 formatter.match({
   "location": "SimonBlogTest.userClicksOnAllCheckboxs()"
 });
 formatter.result({
-  "duration": 472781486,
+  "duration": 277884878,
   "status": "passed"
 });
 formatter.match({
   "location": "SimonBlogTest.userClicksOnSubmitButton()"
 });
 formatter.result({
-  "duration": 567884250,
+  "duration": 401190245,
   "status": "passed"
 });
 formatter.uri("UkSpringBoard.feature");
@@ -572,14 +572,14 @@ formatter.match({
   "location": "InsightPageTest.userIsOnInsightsPage()"
 });
 formatter.result({
-  "duration": 7960256209,
+  "duration": 5121147010,
   "status": "passed"
 });
 formatter.match({
   "location": "InsightPageTest.titleInsightsPageTitleIsInsightsOctopusGroup()"
 });
 formatter.result({
-  "duration": 244764001,
+  "duration": 14809163,
   "status": "passed"
 });
 formatter.scenario({
@@ -624,14 +624,14 @@ formatter.match({
   "location": "UkSpringBoardTest.userClickOnUkSpringboardLinkInFooter()"
 });
 formatter.result({
-  "duration": 2202460177,
+  "duration": 1536013912,
   "status": "passed"
 });
 formatter.match({
   "location": "UkSpringBoardTest.userVerifiesThePageTitle()"
 });
 formatter.result({
-  "duration": 394350002,
+  "duration": 285265806,
   "status": "passed"
 });
 formatter.match({
@@ -652,21 +652,21 @@ formatter.match({
   "location": "UkSpringBoardTest.userEnterOnUKSpringboardPage(String,String,String)"
 });
 formatter.result({
-  "duration": 1694371734,
+  "duration": 880869369,
   "status": "passed"
 });
 formatter.match({
   "location": "UkSpringBoardTest.userClicksOnAnyCheckbox()"
 });
 formatter.result({
-  "duration": 234793545,
+  "duration": 173188227,
   "status": "passed"
 });
 formatter.match({
   "location": "UkSpringBoardTest.userClickOnSubmitButton()"
 });
 formatter.result({
-  "duration": 595659423,
+  "duration": 451917296,
   "status": "passed"
 });
 });
